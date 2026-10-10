@@ -197,7 +197,7 @@ flowchart LR
 | Arm GNU | 13.2.Rel1，Windows mingw-w64-i686 arm-none-eabi | 编译 V2 固件 |
 | GNU make | MSYS2 mingw-w64-x86_64-make 4.4.1-3 | SDK 构建 |
 | Himax SDK | `d3265e20d75fe20faccbf185d24454ad08b2fda8` | 芯片、摄像头和 TFLM 驱动 |
-| PlatformIO | 6.2.0；Uno atmelavr | Uno 编译、上传 |
+| PlatformIO | 6.2.0；Uno atmelavr 5.3.0 | Uno 编译、上传 |
 
 三个 `requirements-*-lock.txt` 保存本次使用的版本快照。SDK 提交、下载地址、工具链压缩包的校验值在 [sources.lock.json](face_detection/sources.lock.json)。SDK ZIP 的提交标记及两个基线文件的 SHA256 也会核对，避免悄悄使用变化后的 `main`。
 
