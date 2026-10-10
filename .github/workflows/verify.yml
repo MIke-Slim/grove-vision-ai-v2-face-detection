@@ -1,0 +1,30 @@
+name: Verify workflow
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  artifacts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify model and firmware hashes
+        run: python face_detection/tools/verify_artifacts.py
+      - name: Check Python syntax
+        run: python -m compileall -q face_detection/tools diagnostics
+  uno:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install PlatformIO
+        run: python -m pip install platformio==6.2.0
+      - name: Compile Uno reader
+        run: pio run -d face_detection/uno

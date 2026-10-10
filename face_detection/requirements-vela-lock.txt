@@ -1,0 +1,6 @@
+ethos-u-vela==4.0.1
+flatbuffers==24.3.25
+lxml==6.1.3
+numpy==1.26.4
+pyserial==3.5
+xmodem==0.4.7

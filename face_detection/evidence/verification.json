@@ -1,0 +1,53 @@
+{
+  "tested_on": "2026-10-10",
+  "device": "Grove Vision AI V2 + Arduino Uno R3",
+  "camera": "OV5647",
+  "model_bytes": 2778912,
+  "model_fnv32": "2f1a734b",
+  "tensor_arena_bytes": 300684,
+  "v2_serial_face_test": {
+    "0": 3,
+    "1": 139,
+    "2": 5
+  },
+  "i2c_face_present": {
+    "source_log": "uno-face-present.log",
+    "reports": 36,
+    "first_frame": 103,
+    "last_frame": 245,
+    "frame_advances_in_every_report": true,
+    "observed_counts": [
+      1
+    ],
+    "last_face_box": [
+      0,
+      140,
+      115,
+      124,
+      84,
+      84
+    ],
+    "waiting_or_stale_lines": []
+  },
+  "i2c_no_face": {
+    "source_log": "uno-no-face.log",
+    "reports": 36,
+    "first_frame": 484,
+    "last_frame": 625,
+    "frame_advances_in_every_report": true,
+    "observed_counts": [
+      0
+    ],
+    "last_face_box": null,
+    "waiting_or_stale_lines": []
+  },
+  "uno_flash_bytes": 5064,
+  "uno_ram_bytes": 535,
+  "led": "Face-present L LED on visually confirmed; no-face LED off not visually confirmed",
+  "stale_guard": "Over 2 seconds without a new frame is reported as WAIT_V2_STALE; verified on stalled frame 1465",
+  "known_issue": "A stall after switching power/wiring recovered after V2 RESET; underlying cause undetermined",
+  "artifact_status": {
+    "v2-face-tested.img": "flashed and tested with committed Vela model",
+    "v2-face-rebuilt.img": "compiled only, not reflashed for hardware validation"
+  }
+}

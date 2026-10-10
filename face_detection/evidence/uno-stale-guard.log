@@ -1,0 +1,19 @@
+, last=1465
+: frame not advancing, last=1465
+WAIT_V2_STALE: frame not advancing, last=1465
+WAIT_V2_STALE: frame not advancing, last=1465
+OPEN_FACE_UNO_V1: V2 I2C=0x62
+FRAME=1465 COUNT=1 IMAGE=320x240
+FACE 0 x=61 y=51 w=118 h=82 score=84
+FRAME=1465 COUNT=1 IMAGE=320x240
+FACE 0 x=61 y=51 w=118 h=82 score=84
+FRAME=1465 COUNT=1 IMAGE=320x240
+FACE 0 x=61 y=51 w=118 h=82 score=84
+WAIT_V2_STALE: frame not advancing, last=1465
+WAIT_V2_STALE: frame not advancing, last=1465
+WAIT_V2_STALE: frame not advancing, last=1465
+WAIT_V2_STALE: frame not advancing, last=1465
+WAIT_V2_STALE: frame not advancing, last=1465
+WAIT_V2_STALE: frame not advancing, last=1465
+WAIT_V2_STALE: frame not advancing, last=1465
+WAIT_V2_STALE: frame not advancing, last=1465

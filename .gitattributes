@@ -1,0 +1,14 @@
+* text=auto
+*.py text eol=lf
+*.ps1 text eol=crlf
+*.cpp text eol=lf
+*.ini text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.pt -text
+*.onnx -text
+*.tflite -text
+*.img -text
+*.hex -text
+face_detection/tools/himax_vela.ini -text
