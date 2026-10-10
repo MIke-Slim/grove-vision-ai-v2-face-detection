@@ -372,6 +372,8 @@ V2 从机地址 `0x62`，Uno 使用 100 kHz，读事务固定 **32 字节**。�
 
 GitHub Actions 校验已提交产物的 SHA256、Python 语法并编译 Uno。V2 重新编译通过本地 Windows 流程检查；物理摄像头、人脸场景、I²C 和 LED 测试需要连接实物，CI 不会宣称这些已验证。
 
+发布前另用全新 Git 副本完成九项产物校验、新建烧录环境、烧录参数检查、Uno 编译，以及从已校验缓存重新解压 SDK/工具链后的 V2 完整编译与打包。Uno HEX 与实测产物完全一致；V2 新构建没有重新烧录。首次 GitHub Actions 已通过，详细范围与未重复的步骤见 [工作流验证记录](face_detection/evidence/workflow-validation.json)。
+
 ## 依赖和许可
 
 - 模型来源：[akanametov/yolo-face 1.0.0 权重](https://github.com/akanametov/yolo-face/releases/download/1.0.0/yolov8n-face.pt)。

@@ -1,0 +1,32 @@
+{
+  "validated_on": "2026-10-10",
+  "host": "Windows 64-bit, Python 3.11.7",
+  "fresh_clone": {
+    "source_commit": "7943ea03219dbdba66e7c925c315b9a6bc8c4583",
+    "artifact_checks_passed": 9,
+    "flash_environment": "Created a new venv and installed requirements-vela-lock.txt from package downloads",
+    "flash_dry_run": "Passed with the tested firmware/model pair; serial device was not opened",
+    "sdk_and_toolchain": "Extracted verified cached archives into clone-owned directories; SDK fingerprint and local junction checks passed",
+    "sdk_download": "Fresh network download of the SDK and Arm archive was not repeated",
+    "v2_build": "Full compilation and image packaging passed from freshly extracted SDK and toolchain",
+    "v2_image_bytes": 352256,
+    "v2_image_sha256": "a67db2f920ee74752fce45391ffd748ee672fb6a8644cfb23eb81a0c1b24350c",
+    "v2_hardware_validation": "Newly compiled image was not flashed",
+    "uno_build": "Passed, PlatformIO 6.2.0 and atmelavr 5.3.0",
+    "uno_flash_bytes": 5064,
+    "uno_ram_bytes": 535,
+    "uno_hex_sha256": "8256c9f7e2b3ac026e8a1320119e94d82479b74c3e9c2f44f8f5ca03100eef89",
+    "uno_hex_matches_tested_artifact": true
+  },
+  "python_environment_dependency_checks": {
+    "inference": "pip check passed",
+    "conversion": "pip check passed"
+  },
+  "github_actions": {
+    "commit": "92718a28d21db2c28199c989bec711c82fa06fd5",
+    "conclusion": "success",
+    "url": "https://github.com/MIke-Slim/grove-vision-ai-v2-face-detection/actions/runs/38065072898",
+    "scope": "Artifact hashes, Python syntax and Uno compilation"
+  },
+  "limits": "This publication check did not repeat private-photo calibration, full online dependency restoration or hardware testing. Hardware evidence is recorded separately in verification.json."
+}
