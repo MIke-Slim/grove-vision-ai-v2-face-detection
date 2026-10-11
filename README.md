@@ -83,7 +83,7 @@ cd grove-vision-ai-v2-face-detection
 py -3.11 face_detection/tools/verify_artifacts.py
 ```
 
-私有仓库需要使用有权限的 GitHub 账号登录。首次校验会逐个检查已提交模型和固件的大小、SHA256。
+本仓库公开可访问，克隆和下载无需登录 GitHub。首次校验会逐个检查已提交模型和固件的大小、SHA256。
 
 ### 2. 准备 Python 环境
 
