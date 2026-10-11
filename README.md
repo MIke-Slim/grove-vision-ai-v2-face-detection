@@ -36,6 +36,8 @@
 
 证据见 [验证摘要](face_detection/evidence/verification.json)、[有脸串口记录](face_detection/evidence/uno-face-present.log)、[无人脸记录](face_detection/evidence/uno-no-face.log)和[停滞保护记录](face_detection/evidence/uno-stale-guard.log)。这些记录只包含检测结果，没有照片。
 
+本次通信和 L 灯验证的接线、结果及待确认项整理在 [通信验证 L 灯](face_detection/evidence/communication-led.md)。
+
 这是一套已经跑通的原型，不是完整准确率评测。少数帧中的额外人脸框是否为误检尚未确认；192×192 输入对远处的小脸可能漏检；最多输出 16 张脸。先在充足室内光线、约 30～60 cm 距离下检查基本功能。
 
 仓库保存两个 V2 固件：
